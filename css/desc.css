@@ -1,0 +1,109 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team > .container {
+    max-width: 1158px;
+  }
+  .customers .container {
+    max-width: 1158px;
+  }
+  .footer .container {
+    max-width: 1158px;
+  }
+  /* nav=============== */
+  .header-cont:last-child {
+  margin-left: 40px;
+}
+.header-list{
+  margin-left: 76px;
+}
+.header-cont-div{
+  display: flex;
+}
+  .header .container{
+    align-items: center;
+  }
+  .header-link.current::after{
+    bottom: -25px;
+  }
+  /* hero-------------- */
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/people-office-desk.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/people-office-desk2x.jpg);
+    }
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+  /* ABOUT================ */
+  .features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 264px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+  .feature > .list {
+    display: flex;
+    gap: 24px;
+  }
+  .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  /* WORK--------------------- */
+  .work {
+    display: flex;
+  }
+  /* TEAM================= */
+  .team {
+    background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  /* .customers=============== */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  /* foteer----------- */
+  .subscribe {
+    padding-right: 453px;
+    padding-bottom: 80px;
+  }
+  .subscribe-btn {
+    position: absolute;
+    top: 24px;
+    right: 0;
+  }
+  .footer-log {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+  .footer-contact {
+    align-items: flex-start;
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+}
