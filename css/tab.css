@@ -13,19 +13,19 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .header .container{
+  .header .container {
     align-items: flex-start;
   }
-  .nav-menu-open{
+  .nav-menu-open {
     display: none;
   }
   .header-list {
-  display: flex;
-  margin-left: 120px;
-}
-.header-cont{
     display: flex;
-}
+    margin-left: 120px;
+  }
+  .header-cont {
+    display: flex;
+  }
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),

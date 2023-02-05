@@ -29,6 +29,12 @@
   .header-link.current::after{
     bottom: -25px;
   }
+  .header-cont {
+ 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24/16);
+  letter-spacing: 0.02em;
   /* hero-------------- */
   .hero {
     padding-top: 188px;
@@ -71,6 +77,15 @@
   .about {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .main-title{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+letter-spacing: 0.02em;
+color: #2E2F42;
+
   }
   /* WORK--------------------- */
   .work {
